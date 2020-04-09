@@ -5,7 +5,7 @@ Vanaspati
 Manavati
 Tanarupi
 Senavati
-Hanumatodi
+Todi
 Dhenuka
 Natakapriya
 Kokilapriya
@@ -26,7 +26,7 @@ Mararanjani
 Charukesi
 Sarasangi
 Harikambhoji
-Dheerasankarabaranam
+Sankarabaranam
 Naganandini
 Yagapriya
 Ragavardhini
@@ -48,7 +48,7 @@ Suvarnangi
 Divyamani
 Dhavalambari
 Naamanarayani
-Kaamavardini
+Pantuvarali
 Ramapriya
 Gamanasrama
 Vishwambari

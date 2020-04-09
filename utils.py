@@ -61,6 +61,7 @@ def play_scale(raga, base_note="C", duration=2):
     pitch_sequence = raga.sequence
     base_offset = NOTE_OFFSET_DICT[base_note]
     pitch_sequence = [elem + base_offset for elem in pitch_sequence]
+    pitch_sequence = pitch_sequence + pitch_sequence[::-1]
     
     for pitch in pitch_sequence:
         freq = (2**(pitch/12))*440
