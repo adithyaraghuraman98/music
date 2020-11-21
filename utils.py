@@ -19,10 +19,10 @@ import simpleaudio as sa
 def sound(x,z):
     frequency = x # Our played note will be 440 Hz
     fs = 44100  # 44100 samples per second
-    seconds = z  # Note duration of 3 seconds
+    seconds = z
 
     # Generate array with seconds*sample_rate steps, ranging between 0 and seconds
-    t = np.linspace(0, seconds, seconds * fs, False)
+    t = np.linspace(0, seconds, int(seconds * fs), False)
 
     # Generate a 440 Hz sine wave
     note = np.sin(frequency * t * 2 * np.pi)
