@@ -3,7 +3,7 @@ SWARAS_OFFSET_MAP = {
     "P":7, "D1":8, "D2":9, "D3":10, "N1":9, "N2":10, "N3": 11, "S": 12,
 }
 
-class raga(object):
+class Raga(object):
     def __init__(self, name, notes):
         self.name = name
         self.notes = notes
