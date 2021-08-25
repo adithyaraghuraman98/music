@@ -30,7 +30,7 @@ for i, raga in enumerate(raga_list):
     key_in = None
 
     while(not key_in == "n"):
-        key_in = input("Press n to play new raga, r to replay current raga, and c for correct answer")
+        key_in = input("Press n to play new raga, r to replay current raga, and c for correct answer\n")
         if key_in == "c":
             print(raga.name)
         elif key_in== "r":
