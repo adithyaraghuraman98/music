@@ -1,7 +1,7 @@
 import sys
 import random
 
-from raga import raga
+from raga import Raga
 from utils import *
 
 
@@ -16,7 +16,7 @@ for m in ["M1", "M2"]:
 raga_list = []
 
 for name, notes in zip(raga_names, raga_notes):
-    raga_list.append(raga(name, notes))
+    raga_list.append(Raga(name, notes))
 
 random.shuffle(raga_list)
 i = -1
